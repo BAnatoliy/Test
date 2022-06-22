@@ -3,6 +3,7 @@ public class Main {
         String b = "Hello Bro!!";
         SayHello sayHello = new SayHello(b);
         sayHello.sayHello(b);
+        System.out.println(sayHello.a);
 
     }
 }
